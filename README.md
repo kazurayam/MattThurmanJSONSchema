@@ -13,7 +13,7 @@ in the Katalon Forum: [How to validate the JSON response with expected JSON sche
 
 This project assumes you have
 1. Katalon Studio installed on your PC
-2. Gradle is installed on your PC
+2. [Gradle](https://gradle.org/) is installed on your PC
 
 In order to downloaded necessary jars in the `<projectDir>/Drivers`, execute the following command in the command line:
 
