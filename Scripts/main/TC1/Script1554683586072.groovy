@@ -16,7 +16,7 @@ def responseBodyContent = '''
     },
     {
         "ID": 2,
-        "Name": ‚ÄúTextArea‚Äù
+        "Name": ÅgTextAreaÅh
     },
     {
         "ID": 3,
@@ -55,4 +55,4 @@ def responseBodyContent = '''
 //def responseJson = group_response.getResponseBodyContent().replace("[", "").replace("]", "")
 //def responseJson = responseBodyContent.replace("[", "").replace("]", "")
 def responseJson = responseBodyContent
-CustomKeywords.'com.ws.EveritValidator.verifyJsonSchema'(responseJson, schema)
+boolean result = CustomKeywords.'com.kazurayam.jsonschema4ks.EveritValidator.validate'(responseJson, schema)
