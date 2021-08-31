@@ -12,7 +12,7 @@ repositories {
 dependencies {
 
     // https://mvnrepository.com/artifact/com.github.erosb/everit-json-schema
-	implementation group: 'com.github.erosb', name: 'everit-json-schema', version: '1.9.2'
+	compile group: 'com.github.erosb', name: 'everit-json-schema', version: '1.13.0'
     
 
     // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
