@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "215B7930E1F9E0008682E56A2353B9BF",
+  "keywordClasses": [
+    {
+      "name": "com.kazurayam.jsonschema4ks.EveritValidator",
+      "keywordMethods": [
+        {
+          "name": "validate",
+          "parameters": [
+            {
+              "name": "stringJson",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "stringSchema",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/*** Send request and verify status code\n\t * * @param stringJson Json to validate\n\t * * @param stringSchema validation schema\n\t * */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

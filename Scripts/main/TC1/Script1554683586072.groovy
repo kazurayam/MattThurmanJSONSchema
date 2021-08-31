@@ -16,7 +16,7 @@ def responseBodyContent = '''
     },
     {
         "ID": 2,
-        "Name": ÅgTextAreaÅh
+        "Name": "TextArea"
     },
     {
         "ID": 3,

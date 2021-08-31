@@ -6,6 +6,7 @@
    <UUID>700d6a0e-c40b-4f14-91bc-1186982421e7</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/kazuakiurayama/katalon-workspace/MattThurmanJSONSchema/MattThurmanJSONSchema.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
