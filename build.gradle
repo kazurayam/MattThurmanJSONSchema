@@ -3,6 +3,8 @@ plugins {
     id 'com.katalon.gradle-plugin' version "0.0.7"
 }
 
+version = "0.1.0-SNAPSHOT"
+
 repositories {
     mavenCentral()
 }
@@ -11,6 +13,10 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.everit.json/org.everit.json.schema
     compile group: 'org.everit.json', name: 'org.everit.json.schema', version: '1.5.1'
+    
+    // https://mvnrepository.com/artifact/com.github.erosb/everit-json-schema
+	//implementation group: 'com.github.erosb', name: 'everit-json-schema', version: '1.9.2'
+    
 
     // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
     compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
